@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0w2h7rwj3c0r"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_k0b1a"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Scroller" type="Node2D" parent="."]
+position = Vector2(288, 0)
+scale = Vector2(1.12, 1.12)
+
+[node name="Sprite2D" type="Sprite2D" parent="Scroller"]
+position = Vector2(16.25, 16.6111)
+scale = Vector2(77.5, 79.2222)
+texture = SubResource("CanvasTexture_k0b1a")
+
+[node name="Control" type="Control" parent="Scroller"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
